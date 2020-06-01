@@ -1,0 +1,228 @@
+
+.Building {
+    position: absolute;
+    width: 239px;
+    height: 150px;
+    background: #030303;
+    left: 16px;
+    top: 136px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.Krysha {
+    position: absolute;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid #24375B;
+    padding-left: 0px; 
+    top: 17px;
+    left: 16px;
+}
+
+.Okno {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: thistle;
+    top: 170px;
+    left: 35px;
+}
+
+.Okno1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: thistle;
+    top: 170px;
+    left: 200px;
+}
+
+.Dverka {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    background: rgb(243, 161, 8);
+    left: 103px;
+    top: 186px;
+}
+
+.father {
+    position: relative;
+}
+
+.Okno-son {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: thistle;
+    left: 90px;
+    top: 30px;
+}
+
+.Okno1-son {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: thistle;
+    left: -90px;
+}
+
+.Building-son {
+    position: relative;
+    width: 240px;
+    height: 150px;
+    background: #08bdeb;
+    top: 136px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.Dverka-son {
+    position: relative;
+    width: 60px;
+    height: 100px;
+    background: rgb(49, 3, 58);
+    top: -24px;
+}
+
+.Krysha-son {
+    position: relative;
+    width: 0; 
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid rgb(238, 73, 8);
+    top: -293px;
+}
+
+.Building-statical {
+    position: static;
+    width: 239px;
+    height: 190px;
+    margin: -308px 1250px;
+    background: #ee0bb5;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.Krysha-statical {
+    position: static;
+    width: 0; 
+    height: 0;
+    margin: -310px 1250px;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid orange;
+}
+
+.Dverka-statical {
+    position: static;
+    width: 60px;
+    height: 100px;
+    background: red;
+    margin-top: 209px;
+    margin-left: 1350px;
+   
+}
+
+.Building-stuk{ 
+    position: sticky;
+    margin-top:315px;
+    margin-left: 350px;
+    background-color: red;
+    width: 240px;
+    height: 140px;
+    box-sizing: border-box;
+    padding: 20px;
+    top:30px
+    
+}
+.Krysha-stuk{
+    position: sticky;
+    margin-left:350px;
+    width: 0; 
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid black;
+    margin-top:-300px;
+    top:20px
+}
+.Dverka-stuk{
+    position: sticky;
+    width: 60px;
+    height: 100px;
+    background: blue;
+    margin-left:450px;
+    margin-top:-30px;
+    top:30px;
+  
+}
+.Okno-stuk{
+    position: sticky;
+    width: 30px;
+    height: 30px;
+    background: blue;
+    margin-left:380px;
+    margin-top:-100px;
+    top:30px;
+}
+.tropa{
+    width: 60px;
+    height: 750px;
+    background-color: crimson;
+    margin-top:150px;
+    margin-left:450px
+}
+.tropa2{
+    width: 250px;
+    height: 60px;
+    background-color: crimson;
+    margin-top:-60px;
+    margin-left:510px
+}
+.Building-fixed{
+    position: fixed;
+    top:580px;
+    left: 769px;
+    width: 239px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 20px;
+    background:yellow;
+    z-index: 1;
+    
+}
+.Krysha-fixed{
+    position: fixed;
+    top:465px;
+    left: 769px;
+    width: 0; 
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid red;
+    z-index: 2;
+}
+.Dverka-fixed{
+    position: fixed;
+    top:635px;
+    left: 825px;
+    width: 60px;
+    height: 100px;
+    background-color: salmon;
+    z-index: 3;
+}
+.Okno-fixed{
+    position: fixed;
+    top:625px;
+    left: 930px;
+    width: 30px;
+    height: 30px;
+    background-color:blue;
+    z-index: 3;
+}
+body {
+    background: url(../img/1.jpg);
+}
